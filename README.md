@@ -3,6 +3,7 @@
 ## project set-up
 $ cp .vscode
 $ cp .gitignore
+$ set PIPENV_VENV_IN_PROJECT=1  |   $ PIPENV_VENV_IN_PROJECT=1
 $ python -m pipenv shell
 
 ## python user packages
