@@ -1,0 +1,24 @@
+{
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "files.exclude": {
+        "**/.pytest_cache": true,
+        "**/.venv": true,
+        "**/Pipfile": true,
+        "**/__pycache__": true
+    },
+    "python.formatting.autopep8Path": "${env:USER_PIP_INSTALL_FOLDER}autopep8",
+    "python.formatting.provider": "autopep8",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "${env:USER_PIP_INSTALL_FOLDER}flake8",
+    "python.linting.pylintEnabled": false,
+    "python.testing.pytestEnabled": false,
+    "python.testing.pytestPath": "${env:USER_PIP_INSTALL_FOLDER}pytest",
+    "terminal.integrated.env.windows": {
+        "PIPENV_VENV_IN_PROJECT": "1",
+        "USER_PIP_INSTALL_FOLDER": "C:\\Users\\pat.ch1\\AppData\\Roaming\\Python\\Python39\\site-packages\\"
+    }
+}
